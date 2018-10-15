@@ -1,0 +1,53 @@
+<h1>Parques</h1>
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-3">Luces Perimetrales</div>
+  <div class="switch6 col-sm-3" style="border:1px solid #999999;">
+
+    <label class="switch6-light" onchange="perimetral()">
+      <input class="form-check-input" type="checkbox" value="" id="perim">
+      <span>
+        <span>Off</span>
+        <span>On</span>
+      </span>
+      <a class="btn btn-primary"></a>
+    </label>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-3">Luces Internas</div>
+
+  <div class="switch6 col-sm-3" style="border:1px solid #999999;">
+
+    <label class="switch6-light" onclick="internas()">
+      <input class="form-check-input" type="checkbox" value="" id="inter">
+      <span>
+        <span>Off</span>
+        <span>On</span>
+      </span>
+      <a class="btn btn-primary"></a>
+    </label>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-3">Parques</div>
+  <div class="switch6 col-sm-3" style="border:1px solid #999999;">
+
+    <label class="switch6-light" onclick="parques()">
+      <input class="form-check-input" type="checkbox" value="" id="park">
+      <span>
+        <span>Off</span>
+        <span>On</span>
+      </span>
+      <a class="btn btn-primary"></a>
+    </label>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">Colores</div>
+  <div class="col-sm-3">
+  <input type="text" class="form-control" id="color" onchange="showcolor()" />
+  <div id="colores"></div>
+</div>
+</div>

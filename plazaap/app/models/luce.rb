@@ -1,0 +1,2 @@
+class Luce < ApplicationRecord
+end

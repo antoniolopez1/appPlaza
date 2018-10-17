@@ -579,3 +579,12 @@ Processing by LucesController#index as HTML
 Completed 200 OK in 64199ms (Views: 64145.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-10-16 22:54:52 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/antoniolopez01/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 4030ms (Views: 3976.7ms | ActiveRecord: 0.0ms)
+
+

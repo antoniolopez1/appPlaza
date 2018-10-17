@@ -7,5 +7,8 @@ class LucesController < ApplicationController
     render json: @luces
     #render json: json_string
   end
-
+  def turn_on_all
+  end
+  def turn_off_all
+  end
 end

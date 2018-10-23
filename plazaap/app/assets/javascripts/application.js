@@ -20,7 +20,9 @@
 //= require jquery.minicolors
 function perimetral()
 {
-  //if ($('#perim').is(':checked')) { tex=1; alert('uno'); } else { tex= 0;  alert('cero'); }
+  if ($('#perim').is(':checked')) { tex=1;  } else { tex= 0;  }
+  var URL = "luces/perch/"+tex;
+  $.get( URL );
   //alert ('perimetral= '+tex);
 }
 function internas()
@@ -34,7 +36,12 @@ function parques()
 
 function showcolor()
 {
-  //alert ('color='+$('#color').val());
+  alert ('color='+$('#color').val());
+}
+
+function guardar()
+{
+	alert ("Guardado con exito");
 }
 
 $(function() {

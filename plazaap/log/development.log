@@ -588,3 +588,430 @@ Processing by LucesController#index as HTML
 Completed 200 OK in 4030ms (Views: 3976.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-10-17 21:44:27 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 468ms (Views: 454.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/turn_on_all" for 127.0.0.1 at 2018-10-19 21:16:29 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/turn_on_all"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-10-19 21:16:41 -0300
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 288ms (Views: 287.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-19 21:17:52 -0300
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 71ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-22 16:07:01 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3372ms (Views: 3337.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-22 16:08:55 -0300
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 319ms (Views: 317.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-22 16:12:02 -0300
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 192ms (Views: 190.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/status" for 127.0.0.1 at 2018-10-22 16:18:02 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/status"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/turn_on_all" for 127.0.0.1 at 2018-10-22 16:18:22 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/turn_on_all"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/status" for 127.0.0.1 at 2018-10-22 16:19:58 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/status"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-10-22 16:20:02 -0300
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 245ms (Views: 243.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-22 19:21:28 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 525ms (Views: 515.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-22 19:23:21 -0300
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 75ms (Views: 73.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-22 19:23:32 -0300
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 63ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-22 19:27:44 -0300
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 193ms (Views: 186.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-22 19:28:00 -0300
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 87ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-22 19:28:13 -0300
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 87ms (Views: 80.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/status" for 127.0.0.1 at 2018-10-22 19:53:16 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/status"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/luces/status" for 127.0.0.1 at 2018-10-22 19:53:37 -0300
+Processing by LucesController#status as HTML
+  [1m[36mLuce Load (27.6ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:5
+Completed 200 OK in 97ms (Views: 0.3ms | ActiveRecord: 31.4ms)
+
+
+Started GET "/luces/status" for 127.0.0.1 at 2018-10-23 18:45:09 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LucesController#status as HTML
+  [1m[36mLuce Load (9.8ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:5
+Completed 200 OK in 57ms (Views: 0.3ms | ActiveRecord: 11.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-23 18:52:32 -0300
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 2419ms (Views: 2417.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-23 19:23:21 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 540ms (Views: 526.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/luces/perch/1" for 127.0.0.1 at 2018-10-23 19:23:36 -0300
+Processing by LucesController#perch as */*
+  Parameters: {"value"=>"1"}
+  [1m[36mLuce Load (0.4ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:11
+No template found for LucesController#perch, rendering head :no_content
+Completed 204 No Content in 84ms (ActiveRecord: 6.5ms)
+
+
+Started GET "/luces/status" for 127.0.0.1 at 2018-10-23 19:24:22 -0300
+Processing by LucesController#status as HTML
+  [1m[36mLuce Load (0.2ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:5
+Completed 200 OK in 17ms (Views: 0.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/luces/perch/0" for 127.0.0.1 at 2018-10-23 19:24:31 -0300
+Processing by LucesController#perch as */*
+  Parameters: {"value"=>"0"}
+  [1m[36mLuce Load (0.3ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:11
+No template found for LucesController#perch, rendering head :no_content
+Completed 204 No Content in 75ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/luces/status" for 127.0.0.1 at 2018-10-23 19:24:36 -0300
+Processing by LucesController#status as HTML
+  [1m[36mLuce Load (0.3ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:5
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/luces/perch/1" for 127.0.0.1 at 2018-10-23 19:27:05 -0300
+Processing by LucesController#perch as */*
+  Parameters: {"value"=>"1"}
+  [1m[36mLuce Load (0.1ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/luces_controller.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/luces_controller.rb:13
+No template found for LucesController#perch, rendering head :no_content
+Completed 204 No Content in 96ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/luces/perch/0" for 127.0.0.1 at 2018-10-23 19:27:06 -0300
+Processing by LucesController#perch as */*
+  Parameters: {"value"=>"0"}
+  [1m[36mLuce Load (0.2ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/luces_controller.rb:13
+  [1m[36mLuce Update (0.8ms)[0m  [1m[33mUPDATE "luces" SET "perim" = ?, "updated_at" = ? WHERE "luces"."id" = ?[0m  [["perim", 0], ["updated_at", "2018-10-23 22:27:06.584188"], ["id", 1]]
+  ↳ app/controllers/luces_controller.rb:13
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/luces_controller.rb:13
+No template found for LucesController#perch, rendering head :no_content
+Completed 204 No Content in 143ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/luces/perch/1" for 127.0.0.1 at 2018-10-23 19:27:08 -0300
+Processing by LucesController#perch as */*
+  Parameters: {"value"=>"1"}
+  [1m[36mLuce Load (0.2ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/luces_controller.rb:13
+  [1m[36mLuce Update (2.1ms)[0m  [1m[33mUPDATE "luces" SET "perim" = ?, "updated_at" = ? WHERE "luces"."id" = ?[0m  [["perim", 1], ["updated_at", "2018-10-23 22:27:08.182675"], ["id", 1]]
+  ↳ app/controllers/luces_controller.rb:13
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/luces_controller.rb:13
+No template found for LucesController#perch, rendering head :no_content
+Completed 204 No Content in 76ms (ActiveRecord: 7.4ms)
+
+
+Started GET "/luces/perch/0" for 127.0.0.1 at 2018-10-23 19:27:10 -0300
+Processing by LucesController#perch as */*
+  Parameters: {"value"=>"0"}
+  [1m[36mLuce Load (0.5ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/luces_controller.rb:13
+  [1m[36mLuce Update (13.4ms)[0m  [1m[33mUPDATE "luces" SET "perim" = ?, "updated_at" = ? WHERE "luces"."id" = ?[0m  [["perim", 0], ["updated_at", "2018-10-23 22:27:10.587313"], ["id", 1]]
+  ↳ app/controllers/luces_controller.rb:13
+  [1m[35m (13.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/luces_controller.rb:13
+No template found for LucesController#perch, rendering head :no_content
+Completed 204 No Content in 116ms (ActiveRecord: 27.0ms)
+
+
+Started GET "/luces/status" for 127.0.0.1 at 2018-10-23 19:27:15 -0300
+Processing by LucesController#status as HTML
+  [1m[36mLuce Load (0.4ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:5
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/luces/perch/1" for 127.0.0.1 at 2018-10-23 19:28:03 -0300
+Processing by LucesController#perch as */*
+  Parameters: {"value"=>"1"}
+  [1m[36mLuce Load (0.1ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/luces_controller.rb:13
+  [1m[36mLuce Update (0.3ms)[0m  [1m[33mUPDATE "luces" SET "perim" = ?, "updated_at" = ? WHERE "luces"."id" = ?[0m  [["perim", 1], ["updated_at", "2018-10-23 22:28:03.114491"], ["id", 1]]
+  ↳ app/controllers/luces_controller.rb:13
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/luces_controller.rb:13
+Completed 200 OK in 37ms (ActiveRecord: 7.4ms)
+
+
+Started GET "/luces/perch/0" for 127.0.0.1 at 2018-10-23 19:28:33 -0300
+Processing by LucesController#perch as */*
+  Parameters: {"value"=>"0"}
+  [1m[36mLuce Load (0.4ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/luces_controller.rb:13
+  [1m[36mLuce Update (8.7ms)[0m  [1m[33mUPDATE "luces" SET "perim" = ?, "updated_at" = ? WHERE "luces"."id" = ?[0m  [["perim", 0], ["updated_at", "2018-10-23 22:28:33.619092"], ["id", 1]]
+  ↳ app/controllers/luces_controller.rb:13
+  [1m[35m (37.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/luces_controller.rb:13
+Completed 200 OK in 56ms (ActiveRecord: 46.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-23 19:30:03 -0300
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 243ms (Views: 241.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-23 19:33:20 -0300
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 155ms (Views: 153.5ms | ActiveRecord: 0.0ms)
+
+

@@ -25,23 +25,25 @@ function perimetral()
   $.get( URL );
   //alert ('perimetral= '+tex);
 }
+function turn_on_all(){
+	{tex=1}
+}
 function internas()
 {
-  //alert ('inter='+$('#inter').val());
+    if ($('#inter').is(':checked')) { tex=1;  } else { tex= 0;  }
+  var URL = "luces/intch/"+tex;
+  $.get( URL );
 }
 function parques()
 {
-  //alert ('park='+$('#park').val());
+    if ($('#park').is(':checked')) { tex=1;  } else { tex= 0;  }
+  var URL = "luces/parkch/"+tex;
+  $.get( URL );
 }
 
 function showcolor()
 {
   alert ('color='+$('#color').val());
-}
-
-function guardar()
-{
-	alert ("Guardado con exito");
 }
 
 $(function() {

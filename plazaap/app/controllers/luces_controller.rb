@@ -14,8 +14,16 @@ class LucesController < ApplicationController
     head :ok
   end
   def intch
+    @luces=Luce.first
+    @luces.inter=params[:value]
+    @luces.save
+    head :ok
   end
   def parkch
+    @luces=Luce.first
+    @luces.park=params[:value]
+    @luces.save
+    head :ok
   end
   def colorch
   end

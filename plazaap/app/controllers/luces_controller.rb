@@ -26,7 +26,12 @@ class LucesController < ApplicationController
     head :ok
   end
   def colorch
-
+    @luces=Luce.first
+    @luces.par_r=params[:r]
+    @luces.par_g=params[:g]
+    @luces.par_b=params[:b]
+    @luces.save
+    head :ok
   end
 
   def turn_on_all

@@ -40,10 +40,24 @@ function parques()
   var URL = "luces/parkch/"+tex;
   $.get( URL );
 }
-
+function hexToRgb1(hex) {
+    var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    return result ? {
+        r: parseInt(result[1], 16),
+        g: parseInt(result[2], 16),
+        b: parseInt(result[3], 16)
+    } : null;
+}
 function showcolor()
-{
-  alert ('color='+$('#color').val());
+{ 
+  var color =$('#color').val();
+  var red = hexToRgb1(color).r;
+  var green = hexToRgb1(color).g;
+  var blue = hexToRgb1(color).b;
+  //alert ('color='+$('#color').val());
+  var URL = "luces/colorch/"+red+"/"+green+"/"+blue;
+  $.get( URL );
+  
 }
 
 function encerder_todas(){

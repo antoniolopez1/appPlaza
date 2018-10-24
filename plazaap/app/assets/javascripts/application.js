@@ -46,6 +46,16 @@ function showcolor()
   alert ('color='+$('#color').val());
 }
 
+function encerder_todas(){
+	var URL = "luces/turn_on_all";
+	$.get( URL );
+}
+
+function apagar_todas(){
+	var URL = "luces/turn_off_all";
+	$.get( URL );
+}
+
 $(function() {
   $.minicolors.defaults = $.extend($.minicolors.defaults, {
  changeDelay: 200,

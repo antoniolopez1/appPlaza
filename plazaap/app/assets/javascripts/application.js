@@ -25,9 +25,9 @@ function perimetral()
   $.get( URL );
   //alert ('perimetral= '+tex);
 }
-function turn_on_all(){
+/*function turn_on_all(){
 	{tex=1}
-}
+}*/
 function internas()
 {
     if ($('#inter').is(':checked')) { tex=1;  } else { tex= 0;  }
@@ -48,6 +48,9 @@ function hexToRgb1(hex) {
         b: parseInt(result[3], 16)
     } : null;
 }
+/*function rgbToHex(r, g, b) {
+    return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+}*/
 function showcolor()
 { 
   var color =$('#color').val();

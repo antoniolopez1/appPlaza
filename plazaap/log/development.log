@@ -3323,3 +3323,59 @@ Processing by LucesController#status as HTML
 Completed 200 OK in 24ms (Views: 2.7ms | ActiveRecord: 4.5ms)
 
 
+Started GET "/luces/status" for 127.0.0.1 at 2018-10-23 23:26:31 -0300
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/antoniolopez01/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LucesController#status as HTML
+  [1m[36mLuce Load (1.4ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:5
+Completed 200 OK in 215ms (Views: 3.4ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/luces/turn_off_all" for 127.0.0.1 at 2018-10-23 23:26:40 -0300
+Processing by LucesController#turn_off_all as */*
+  [1m[36mLuce Load (4.1ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:49
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/luces_controller.rb:56
+  [1m[36mLuce Update (2.0ms)[0m  [1m[33mUPDATE "luces" SET "perim" = ?, "inter" = ?, "park" = ?, "par_r" = ?, "par_g" = ?, "par_b" = ?, "updated_at" = ? WHERE "luces"."id" = ?[0m  [["perim", 0], ["inter", 0], ["park", 0], ["par_r", 0], ["par_g", 0], ["par_b", 0], ["updated_at", "2018-10-24 02:26:40.919921"], ["id", 1]]
+  ↳ app/controllers/luces_controller.rb:56
+  [1m[35m (110.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/luces_controller.rb:56
+Completed 200 OK in 170ms (ActiveRecord: 116.7ms)
+
+
+Started GET "/luces/status" for 127.0.0.1 at 2018-10-23 23:26:48 -0300
+Processing by LucesController#status as HTML
+  [1m[36mLuce Load (1.2ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:5
+Completed 200 OK in 22ms (Views: 4.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/luces/turn_on_all" for 127.0.0.1 at 2018-10-23 23:26:54 -0300
+Processing by LucesController#turn_on_all as */*
+  [1m[36mLuce Load (1.6ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:38
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/luces_controller.rb:45
+  [1m[36mLuce Update (9.2ms)[0m  [1m[33mUPDATE "luces" SET "perim" = ?, "inter" = ?, "park" = ?, "par_r" = ?, "par_g" = ?, "par_b" = ?, "updated_at" = ? WHERE "luces"."id" = ?[0m  [["perim", 1], ["inter", 1], ["park", 1], ["par_r", 80], ["par_g", 240], ["par_b", 215], ["updated_at", "2018-10-24 02:26:54.910836"], ["id", 1]]
+  ↳ app/controllers/luces_controller.rb:45
+  [1m[35m (194.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/luces_controller.rb:45
+Completed 200 OK in 239ms (ActiveRecord: 205.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-23 23:26:57 -0300
+Processing by LucesController#index as HTML
+  Rendering luces/index.html.erb within layouts/application
+  Rendered luces/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 4564ms (Views: 4551.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/luces/status" for 127.0.0.1 at 2018-10-23 23:27:03 -0300
+Processing by LucesController#status as HTML
+  [1m[36mLuce Load (2.9ms)[0m  [1m[34mSELECT  "luces".* FROM "luces" ORDER BY "luces"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/luces_controller.rb:5
+Completed 200 OK in 22ms (Views: 9.1ms | ActiveRecord: 2.9ms)
+
+

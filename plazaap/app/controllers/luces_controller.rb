@@ -39,6 +39,9 @@ class LucesController < ApplicationController
     @luces.perim=1
     @luces.inter=1
     @luces.park=1
+    @luces.par_r= 80
+    @luces.par_g=240
+    @luces.par_b=215
     @luces.save
     head :ok
   end
@@ -47,6 +50,9 @@ class LucesController < ApplicationController
     @luces.perim=0
     @luces.inter=0
     @luces.park=0
+    @luces.par_r=0
+    @luces.par_g=0
+    @luces.par_b=0
     @luces.save
     head :ok
   end

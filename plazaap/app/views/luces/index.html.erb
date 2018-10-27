@@ -5,16 +5,20 @@
 
 <div class="container">
   <div align="center">
-  <button class="btn-success" onclick="encerder_todas()">Encerder todas</button>
+  <button id="boton" class="btn-success" onclick="encerder_todas()">Encerder todas</button>
 
-  <button class="btn-danger" onclick="apagar_todas()">Apagar todas</button>
+  <button id="boton" class="btn-danger" onclick="apagar_todas()">Apagar todas</button>
+
+  
+
+  
   
   </div><br>
 <div class="row">
   
   <div class="col-sm-3">Luces Perimetrales</div>
   <div class="switch6 col-sm-3" style="border:1px solid #999999;">
-    <label class="switch6-light" onchange="perimetral()">
+    <label class="switch6-light" onclick="perimetral()">
       <input class="form-check-input" type="checkbox" value="" id="perim">
       <span>
         <span>Off</span>

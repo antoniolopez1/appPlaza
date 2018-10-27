@@ -18,6 +18,7 @@
 //= require popper
 //= require bootstrap-sprockets
 //= require jquery.minicolors
+
 function perimetral()
 {
   if ($('#perim').is(':checked')) { tex=1;  } else { tex= 0;  }
@@ -65,12 +66,20 @@ function showcolor()
 
 function encerder_todas(){
 	var URL = "luces/turn_on_all";
-	$.get( URL );
+	$('body').on('click', '#boton', function () {   
+        $('input[type="checkbox"]').prop('checked', true);
+  });
+  $.get( URL );
+  
 }
 
 function apagar_todas(){
 	var URL = "luces/turn_off_all";
-	$.get( URL );
+	
+  $('body').on('click', '#boton', function () {   
+        $('input[type="checkbox"]').prop('checked', false);
+  });
+  $.get( URL );
 }
 
 $(function() {
